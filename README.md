@@ -1,28 +1,42 @@
-# test2
+# ra-simple-components
 
-> Made with create-react-library
-
-[![NPM](https://img.shields.io/npm/v/test2.svg)](https://www.npmjs.com/package/test2) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Component library to facilitate the development of your React application.
 
 ## Install
 
 ```bash
-npm install --save test2
+npm install ra-simple-components
+```
+
+or
+
+```bash
+yarn add ra-simple-components
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+//IMPORT BUTTON COMPONENTS
+import { Button } from 'ra-simple-components'
+//IMPORT STYLESHEET
+//you can import the stylesheet into your main 'index.js' file so you don't have to import it into multiple components
+import 'ra-simple-components/dist/index.css'
 
-import MyComponent from 'test2'
-import 'test2/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const YourApp = () => {
+  return (
+    <Button
+      type='default'
+      margin='0px .5rem'
+      iconPosition='left'
+      label='default'
+      size='small'
+    />
+  )
 }
+
+export default YourApp
 ```
 
 ## License

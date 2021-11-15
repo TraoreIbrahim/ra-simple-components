@@ -1,5 +1,5 @@
 {
-  "name": "pa-simple-components",
+  "name": "ra-simple-components",
   "version": "1.0.0",
   "description": "Component library to facilitate the development of your React application.",
   "author": "TraoreIbrahim",
@@ -8,6 +8,17 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": [
+    "components",
+    "simple",
+    "component",
+    "ra",
+    "ra-simple",
+    "ra-simple-components",
+    "ra-components",
+    "library",
+    "boostrap"
+  ],
   "engines": {
     "node": ">=10"
   },
