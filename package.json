@@ -1,10 +1,10 @@
 {
-  "name": "test2",
+  "name": "pa-simple-components",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "Component library to facilitate the development of your React application.",
   "author": "TraoreIbrahim",
   "license": "MIT",
-  "repository": "TraoreIbrahim/test2",
+  "repository": "https://github.com/TraoreIbrahim/ra-simple-components",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

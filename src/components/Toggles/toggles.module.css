@@ -1,0 +1,10 @@
+button {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(212, 212, 212);
+}
+.default {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(212, 212, 212);
+}

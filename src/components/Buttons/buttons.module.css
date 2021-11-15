@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.pa-btn-default {
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  color: #4d4d4d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-default:hover {
+  background-color: #cfcfcf;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-primary {
+  padding: 8px 16px;
+  background-color: #0f56b3;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-primary:hover {
+  background-color: #0d4a9b;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-secondary {
+  padding: 8px 16px;
+  background-color: #6c757d;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-secondary:hover {
+  background-color: #555a5f;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-success {
+  padding: 8px 16px;
+  background-color: #1f8b24;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-success:hover {
+  background-color: #18771d;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-warning {
+  padding: 8px 16px;
+  background-color: #ffc107;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-warning:hover {
+  background-color: #e4ad07;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-danger {
+  padding: 8px 16px;
+  background-color: #da100b;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-danger:hover {
+  background-color: #be0b08;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-dark {
+  padding: 8px 16px;
+  background-color: #1f1f1f;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: 'center';
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: ease-in-out all 0.3s;
+}
+
+.pa-btn-dark:hover {
+  background-color: #000000;
+  transition: ease-in-out all 0.3s;
+}
